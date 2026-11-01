@@ -112,4 +112,4 @@ Trong terminal, chạy lệnh kiểm thử tự động của Jest:
 ```bash
 npm run test
 ```
-Toàn bộ 10 bài test tích hợp (Integration Tests) kiểm tra các luồng API, tìm kiếm, lọc danh mục, cơ chế Copy-on-Write và xuất DOCX/PPTX sẽ chạy và trả về **PASS 100%**.
+**PASS 100%**.
