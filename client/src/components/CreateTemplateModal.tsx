@@ -1,0 +1,334 @@
+import React, { useState } from 'react';
+import { X, Plus, Trash2, FileText, Presentation } from 'lucide-react';
+import { api } from '../api';
+
+interface CreateTemplateModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+  onCreated: () => void;
+  defaultType?: 'document' | 'presentation';
+}
+
+const DOC_CATEGORIES = ['Hành chính', 'Kinh doanh', 'Nhân sự', 'Giáo dục'];
+const PRES_CATEGORIES = ['Kinh doanh', 'Giáo dục', 'Sáng tạo'];
+
+export const CreateTemplateModal: React.FC<CreateTemplateModalProps> = ({
+  isOpen,
+  onClose,
+  onCreated,
+  defaultType = 'document'
+}) => {
+  const [templateType, setTemplateType] = useState<'document' | 'presentation'>(defaultType);
+  const [title, setTitle] = useState('');
+  const [category, setCategory] = useState(defaultType === 'presentation' ? 'Kinh doanh' : 'Hành chính');
+  const [description, setDescription] = useState('');
+  const [tags, setTags] = useState('công văn, hành chính');
+  const [thumbnailUrl, setThumbnailUrl] = useState('https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80');
+  const [htmlContent, setHtmlContent] = useState(`<h2>TIÊU ĐỀ MẪU TÀI LIỆU MỚI</h2><p>Nội dung mẫu văn bản có thể chỉnh sửa ở đây...</p>`);
+  
+  const [slides, setSlides] = useState([
+    {
+      id: 'slide-1',
+      slideNumber: 1,
+      title: 'Slide Tiêu Đề Mới',
+      subtitle: 'Phụ đề giới thiệu ngắn gọn',
+      layout: 'title' as const,
+      backgroundColor: '#0f172a'
+    },
+    {
+      id: 'slide-2',
+      slideNumber: 2,
+      title: 'Nội Dung Chi Tiết',
+      subtitle: 'Các luận điểm quan trọng',
+      layout: 'bullet' as const,
+      bullets: ['Nội dung luận điểm 1', 'Nội dung luận điểm 2'],
+      backgroundColor: '#1e293b'
+    }
+  ]);
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  if (!isOpen) return null;
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!title.trim()) {
+      setError('Vui lòng nhập tên mẫu');
+      return;
+    }
+
+    setLoading(true);
+    setError(null);
+
+    try {
+      const tagList = tags.split(',').map(t => t.trim()).filter(Boolean);
+
+      if (templateType === 'document') {
+        await api.createNewDocumentTemplate({
+          title,
+          category,
+          description,
+          tags: tagList,
+          thumbnailUrl,
+          contentHtml: htmlContent
+        });
+      } else {
+        await api.createNewPresentationTemplate({
+          title,
+          category,
+          description,
+          tags: tagList,
+          thumbnailUrl,
+          theme: {
+            name: 'Standard Dark',
+            primaryColor: '#3b82f6',
+            secondaryColor: '#10b981',
+            accentColor: '#f59e0b',
+            backgroundColor: '#0f172a',
+            textColor: '#ffffff',
+            fontHeading: 'Inter, sans-serif',
+            fontBody: 'Inter, sans-serif'
+          },
+          slides
+        });
+      }
+
+      onCreated();
+      onClose();
+    } catch (err: any) {
+      setError(err.message || 'Lỗi khi tạo mẫu mới');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const addSlide = () => {
+    const nextNum = slides.length + 1;
+    setSlides([
+      ...slides,
+      {
+        id: `slide-${nextNum}`,
+        slideNumber: nextNum,
+        title: `Slide ${nextNum}`,
+        subtitle: 'Mô tả tóm tắt...',
+        layout: 'bullet',
+        bullets: ['Luận điểm 1', 'Luận điểm 2'],
+        backgroundColor: '#0f172a'
+      }
+    ]);
+  };
+
+  const removeSlide = (index: number) => {
+    if (slides.length <= 1) return;
+    const newSlides = slides.filter((_, i) => i !== index).map((s, idx) => ({ ...s, slideNumber: idx + 1 }));
+    setSlides(newSlides);
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-slate-900/60 backdrop-blur-xs animate-in fade-in">
+      <div className="bg-white rounded-xl shadow-xl border border-slate-200 max-w-xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+        {/* Header */}
+        <div className="px-5 py-3.5 border-b border-slate-200 flex items-center justify-between">
+          <h2 className="text-sm sm:text-base font-semibold text-slate-900">
+            Thêm mẫu mới vào thư viện
+          </h2>
+          <button
+            onClick={onClose}
+            className="p-1 rounded-md text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* Form Body */}
+        <form onSubmit={handleSubmit} className="p-5 overflow-y-auto space-y-4 flex-1 text-xs">
+          {error && (
+            <div className="p-2.5 bg-red-50 text-red-700 text-xs rounded-md border border-red-200">
+              {error}
+            </div>
+          )}
+
+          {/* Type Selector */}
+          <div>
+            <label className="block font-medium text-slate-700 mb-1.5">
+              Loại mẫu
+            </label>
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => {
+                  setTemplateType('document');
+                  setCategory('Hành chính');
+                }}
+                className={`py-2 px-3 rounded-lg font-medium border flex items-center justify-center space-x-1.5 transition ${
+                  templateType === 'document'
+                    ? 'border-blue-600 bg-blue-50 text-blue-700'
+                    : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span>Văn bản (DOCX)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setTemplateType('presentation');
+                  setCategory('Kinh doanh');
+                }}
+                className={`py-2 px-3 rounded-lg font-medium border flex items-center justify-center space-x-1.5 transition ${
+                  templateType === 'presentation'
+                    ? 'border-indigo-600 bg-indigo-50 text-indigo-700'
+                    : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                }`}
+              >
+                <Presentation className="w-3.5 h-3.5" />
+                <span>Trình chiếu (PPTX)</span>
+              </button>
+            </div>
+          </div>
+
+          {/* Title */}
+          <div>
+            <label className="block font-medium text-slate-700 mb-1">
+              Tên mẫu <span className="text-red-500">*</span>
+            </label>
+            <input
+              type="text"
+              required
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              placeholder="VD: Thỏa thuận bảo mật thông tin (NDA)"
+              className="w-full px-3 py-1.5 rounded-md border border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-400"
+            />
+          </div>
+
+          {/* Category & Tags */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label className="block font-medium text-slate-700 mb-1">
+                Danh mục <span className="text-red-500">*</span>
+              </label>
+              <select
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+                className="w-full px-3 py-1.5 rounded-md border border-slate-300 bg-white text-slate-800 focus:outline-none focus:ring-1 focus:ring-slate-400 cursor-pointer font-medium"
+              >
+                {(templateType === 'document' ? DOC_CATEGORIES : PRES_CATEGORIES).map((cat) => (
+                  <option key={cat} value={cat}>
+                    {cat}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="block font-medium text-slate-700 mb-1">Thẻ tags</label>
+              <input
+                type="text"
+                value={tags}
+                onChange={(e) => setTags(e.target.value)}
+                placeholder="công văn, hành chính"
+                className="w-full px-3 py-1.5 rounded-md border border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-400"
+              />
+            </div>
+          </div>
+
+          {/* Description */}
+          <div>
+            <label className="block font-medium text-slate-700 mb-1">Mô tả tóm tắt</label>
+            <textarea
+              rows={2}
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              placeholder="Mô tả mục đích sử dụng mẫu..."
+              className="w-full px-3 py-1.5 rounded-md border border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-400"
+            />
+          </div>
+
+          {/* Thumbnail URL */}
+          <div>
+            <label className="block font-medium text-slate-700 mb-1">Ảnh xem trước (URL)</label>
+            <input
+              type="url"
+              value={thumbnailUrl}
+              onChange={(e) => setThumbnailUrl(e.target.value)}
+              className="w-full px-3 py-1.5 rounded-md border border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-400"
+            />
+          </div>
+
+          {/* Conditional Content */}
+          {templateType === 'document' ? (
+            <div>
+              <label className="block font-medium text-slate-700 mb-1">Nội dung mẫu (HTML)</label>
+              <textarea
+                rows={4}
+                value={htmlContent}
+                onChange={(e) => setHtmlContent(e.target.value)}
+                className="w-full px-3 py-1.5 font-mono text-xs rounded-md border border-slate-300 focus:outline-none focus:ring-1 focus:ring-slate-400"
+              />
+            </div>
+          ) : (
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="font-medium text-slate-700">Các slide mẫu ({slides.length})</label>
+                <button
+                  type="button"
+                  onClick={addSlide}
+                  className="inline-flex items-center space-x-1 text-indigo-600 font-medium hover:underline"
+                >
+                  <Plus className="w-3 h-3" />
+                  <span>Thêm slide</span>
+                </button>
+              </div>
+              <div className="space-y-1.5 max-h-36 overflow-y-auto pr-1">
+                {slides.map((s, idx) => (
+                  <div key={idx} className="p-2 bg-slate-50 border border-slate-200 rounded-md flex items-center gap-2">
+                    <span className="font-mono text-slate-400 w-5">#{idx + 1}</span>
+                    <input
+                      type="text"
+                      value={s.title}
+                      onChange={(e) => {
+                        const newSlides = [...slides];
+                        newSlides[idx].title = e.target.value;
+                        setSlides(newSlides);
+                      }}
+                      className="flex-1 px-2 py-1 bg-white border border-slate-300 rounded text-xs"
+                      placeholder="Tiêu đề slide"
+                    />
+                    {slides.length > 1 && (
+                      <button
+                        type="button"
+                        onClick={() => removeSlide(idx)}
+                        className="text-slate-400 hover:text-red-500 p-1"
+                      >
+                        <Trash2 className="w-3.5 h-3.5" />
+                      </button>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Actions */}
+          <div className="pt-3 border-t border-slate-200 flex items-center justify-end space-x-2">
+            <button
+              type="button"
+              onClick={onClose}
+              className="px-3.5 py-1.5 rounded-lg font-medium text-slate-600 hover:bg-slate-100 transition"
+            >
+              Hủy
+            </button>
+            <button
+              type="submit"
+              disabled={loading}
+              className="px-4 py-1.5 rounded-lg font-medium bg-slate-900 text-white hover:bg-slate-800 transition disabled:opacity-50"
+            >
+              {loading ? 'Đang tạo...' : 'Lưu mẫu'}
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  );
+};

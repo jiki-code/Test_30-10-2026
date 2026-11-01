@@ -1,0 +1,835 @@
+{
+  "documentTemplates": [
+    {
+      "id": "doc-tpl-001",
+      "title": "Hợp Đồng Lao Động Chuẩn",
+      "description": "Mẫu hợp đồng lao động xác định thời hạn theo Bộ luật Lao động Việt Nam hiện hành, đầy đủ điều khoản quyền lợi và nghĩa vụ.",
+      "category": "Hợp đồng",
+      "tags": [
+        "Lao động",
+        "Nhân sự",
+        "Pháp lý",
+        "Hợp đồng"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-01-15T08:00:00Z",
+      "updatedAt": "2026-03-20T10:30:00Z",
+      "contentHtml": "\n<h1 style=\"text-align: center;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h1>\n<p style=\"text-align: center;\"><strong>Độc lập - Tự do - Hạnh phúc</strong></p>\n<p style=\"text-align: center;\">------------------------</p>\n<h2 style=\"text-align: center; color: #185abd;\">HỢP ĐỒNG LAO ĐỘNG</h2>\n<p style=\"text-align: center; font-style: italic;\">Số: 01/2026/HĐLĐ-CTY</p>\n\n<p>Hôm nay, ngày ... tháng ... năm 2026, tại trụ sở Công ty Cổ phần Công nghệ ABC, chúng tôi gồm có:</p>\n\n<h3>BÊN A - NGƯỜI SỬ DỤNG LAO ĐỘNG</h3>\n<ul>\n  <li><strong>Tên doanh nghiệp:</strong> CÔNG TY CỔ PHẦN CÔNG NGHỆ ABC</li>\n  <li><strong>Mã số doanh nghiệp:</strong> 0109988776</li>\n  <li><strong>Địa chỉ:</strong> Tầng 12, Tòa nhà Innovation, Quận 1, TP. Hồ Chí Minh</li>\n  <li><strong>Đại diện bởi:</strong> Ông Nguyễn Văn An - Chức vụ: Tổng Giám Đốc</li>\n</ul>\n\n<h3>BÊN B - NGƯỜI LAO ĐỘNG</h3>\n<ul>\n  <li><strong>Họ và tên:</strong> [Họ và tên nhân viên]</li>\n  <li><strong>Ngày sinh:</strong> 01/01/1995 - <strong>Giới tính:</strong> Nam/Nữ</li>\n  <li><strong>Số CCCD:</strong> 001095000000 - Cấp ngày: 10/05/2022 tại Cục CSQLHC về TTXH</li>\n  <li><strong>Địa chỉ thường trú:</strong> Quận Cầu Giấy, TP. Hà Nội</li>\n</ul>\n\n<h3>ĐIỀU 1: THỜI HẠN VÀ CÔNG VIỆC HỢP ĐỒNG</h3>\n<p>1. <strong>Loại hợp đồng:</strong> Xác định thời hạn 24 tháng kể từ ngày 01/04/2026 đến ngày 31/03/2028.</p>\n<p>2. <strong>Vị trí chuyên môn:</strong> Kỹ sư Phát triển Phần mềm Cao cấp (Senior Software Engineer).</p>\n<p>3. <strong>Địa điểm làm việc:</strong> Văn phòng Công ty và theo sắp xếp dự án.</p>\n\n<h3>ĐIỀU 2: CHẾ ĐỘ LÀM VIỆC VÀ LƯƠNG BỔNG</h3>\n<table border=\"1\" cellpadding=\"8\" style=\"width: 100%; border-collapse: collapse; margin-top: 10px;\">\n  <thead>\n    <tr style=\"background-color: #f1f5f9;\">\n      <th>Khoản mục</th>\n      <th>Mức lương / Chế độ</th>\n      <th>Ghi chú</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><strong>Lương cơ bản</strong></td>\n      <td>35,000,000 VNĐ / tháng</td>\n      <td>Thanh toán vào ngày 05 hàng tháng</td>\n    </tr>\n    <tr>\n      <td><strong>Phụ cấp dự án & ăn trưa</strong></td>\n      <td>3,000,000 VNĐ / tháng</td>\n      <td>Tính theo ngày công thực tế</td>\n    </tr>\n    <tr>\n      <td><strong>Bảo hiểm (BHXH, BHYT, BHTN)</strong></td>\n      <td>Đầy đủ theo Luật lao động</td>\n      <td>Công ty đóng theo quy định pháp luật</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3>ĐIỀU 3: ĐIỀU KHOẢN THI HÀNH</h3>\n<p>Hợp đồng này được lập thành 02 (hai) bản có giá trị pháp lý như nhau, mỗi bên giữ 01 bản để thực hiện.</p>\n<div style=\"display: flex; justify-content: space-between; margin-top: 40px;\">\n  <p><strong>ĐẠI DIỆN BÊN A</strong><br/>(Ký, ghi rõ họ tên & đóng dấu)</p>\n  <p><strong>NGƯỜI LAO ĐỘNG (BÊN B)</strong><br/>(Ký và ghi rõ họ tên)</p>\n</div>\n"
+    },
+    {
+      "id": "doc-tpl-002",
+      "title": "Biên Bản Họp Ban Giám Đốc Định Kỳ",
+      "description": "Mẫu biên bản cuộc họp lãnh đạo chuẩn chỉnh ghi nhận thành phần tham dự, tiến độ OKR/KPI và kết luận chỉ đạo quan trọng.",
+      "category": "Biên bản",
+      "tags": [
+        "Biên bản",
+        "Họp",
+        "Quản trị",
+        "Lãnh đạo"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-02-01T09:00:00Z",
+      "updatedAt": "2026-03-10T14:15:00Z",
+      "contentHtml": "\n<h1 style=\"text-align: center;\">TẬP ĐOÀN CÔNG NGHỆ NEXTGEN</h1>\n<h2 style=\"text-align: center; color: #008272;\">BIÊN BẢN CUỘC HỌP BAN ĐIỀU HÀNH</h2>\n<p style=\"text-align: center;\"><em>(Kỳ họp tháng: ... / 2026)</em></p>\n<hr/>\n\n<p><strong>1. THÔNG TIN CHUNG</strong></p>\n<ul>\n  <li><strong>Thời gian:</strong> 09h00 - 11h30 ngày .../.../2026</li>\n  <li><strong>Địa điểm:</strong> Phòng họp Phoenix (Tầng 15) và kết nối trực tuyến Teams</li>\n  <li><strong>Chủ trì:</strong> Ông Lê Quang Hải - Tổng Giám Đốc (CEO)</li>\n  <li><strong>Thư ký cuộc họp:</strong> Bà Phạm Thảo Vy - Trợ lý Ban Điều Hành</li>\n</ul>\n\n<p><strong>2. THÀNH PHẦN THAM DỰ</strong></p>\n<table border=\"1\" cellpadding=\"6\" style=\"width: 100%; border-collapse: collapse;\">\n  <thead>\n    <tr style=\"background-color: #f1f5f9;\">\n      <th>STT</th>\n      <th>Họ và tên</th>\n      <th>Chức vụ</th>\n      <th>Trạng thái</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>Lê Quang Hải</td>\n      <td>Tổng Giám Đốc</td>\n      <td>Có mặt</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>Trần Minh Tuấn</td>\n      <td>Giám đốc Công nghệ (CTO)</td>\n      <td>Có mặt</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>Hoàng Kim Ngân</td>\n      <td>Giám đốc Tài chính (CFO)</td>\n      <td>Có mặt</td>\n    </tr>\n    <tr>\n      <td>4</td>\n      <td>Vũ Đức Thịnh</td>\n      <td>Giám đốc Kinh doanh (CCO)</td>\n      <td>Có mặt</td>\n    </tr>\n  </tbody>\n</table>\n\n<p><strong>3. NỘI DUNG CUỘC HỌP & KẾT LUẬN CHỈ ĐẠO</strong></p>\n<p><strong>A. Báo cáo doanh thu & dòng tiền quý vừa qua:</strong></p>\n<ul>\n  <li>Doanh thu toàn khối đạt 115% kế hoạch đề ra, đóng góp lớn từ nhóm sản phẩm SaaS Enterprise.</li>\n  <li>Dòng tiền tự do duy trì ở mức an toàn cao, sẵn sàng cho chiến dịch R&D phiên bản 3.0.</li>\n</ul>\n\n<p><strong>B. Kết luận & Phân công nhiệm vụ:</strong></p>\n<ol>\n  <li><strong>Khối Công nghệ:</strong> Hoàn thành thử nghiệm bảo mật tải nặng trước ngày 15 của tháng tới.</li>\n  <li><strong>Khối Kinh doanh:</strong> Mở rộng mạng lưới đối tác tại khu vực Đà Nẵng và Cần Thơ.</li>\n  <li><strong>Khối Tài chính:</strong> Rà soát hạn mức ngân sách quý tiếp theo trình HĐQT phê duyệt.</li>\n</ol>\n\n<p style=\"margin-top: 30px;\">Cuộc họp kết thúc vào lúc 11h30 cùng ngày. Biên bản được đọc lại và toàn thể thành viên thống nhất thông qua.</p>\n"
+    },
+    {
+      "id": "doc-tpl-003",
+      "title": "Báo Cáo Tiến Độ Dự Án Tuần (Sprint Status Report)",
+      "description": "Mẫu báo cáo tiến độ kỹ thuật cho Tech Lead / Project Manager gồm Sprint Goal, Deliverables, Burn-down chart và Risk Matrix.",
+      "category": "Báo cáo",
+      "tags": [
+        "Báo cáo",
+        "Dự án",
+        "Sprint",
+        "Agile",
+        "Engineering"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-02-10T11:00:00Z",
+      "updatedAt": "2026-03-25T16:00:00Z",
+      "contentHtml": "\n<h1 style=\"color: #185abd;\">BÁO CÁO TIẾN ĐỘ DỰ ÁN (WEEKLY SPRINT REPORT)</h1>\n<p><strong>Tên Dự Án:</strong> Hệ Thống Văn Phòng Số (Digital Office Suite) | <strong>Sprint:</strong> Sprint 24</p>\n<p><strong>Quản Trị Dự Án (PM):</strong> Nguyễn Hoàng Phúc | <strong>Ngày Báo Cáo:</strong> 31/10/2026</p>\n<hr/>\n\n<h3>1. MỤC TIÊU SPRINT (SPRINT GOAL)</h3>\n<blockquote>Hoàn thiện Module Thư Viện Mẫu Văn Bản và Trình Chiếu với khả năng xem trước, nhân bản không sửa file gốc và tải về định dạng DOCX / PPTX chuẩn hóa.</blockquote>\n\n<h3>2. KẾT QUẢ CÔNG VIỆC CHÍNH (DELIVERABLES)</h3>\n<table border=\"1\" cellpadding=\"8\" style=\"width: 100%; border-collapse: collapse;\">\n  <thead>\n    <tr style=\"background-color: #f8fafc;\">\n      <th>Hạng mục tính năng</th>\n      <th>Chịu trách nhiệm</th>\n      <th>Trạng thái</th>\n      <th>Đánh giá</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Thư viện mẫu văn bản & tìm kiếm thông minh</td>\n      <td>Frontend Team</td>\n      <td><span style=\"color: green; font-weight: bold;\">Hoàn thành 100%</span></td>\n      <td>Đạt tiêu chuẩn UI/UX</td>\n    </tr>\n    <tr>\n      <td>Trình soạn thảo văn bản Rich Text tích hợp</td>\n      <td>Frontend Team</td>\n      <td><span style=\"color: green; font-weight: bold;\">Hoàn thành 100%</span></td>\n      <td>Đầy đủ toolbar định dạng</td>\n    </tr>\n    <tr>\n      <td>Backend Copy-on-Write Template Cloner</td>\n      <td>Backend Team</td>\n      <td><span style=\"color: green; font-weight: bold;\">Hoàn thành 100%</span></td>\n      <td>Bảo toàn dữ liệu gốc tuyệt đối</td>\n    </tr>\n    <tr>\n      <td>Xuất tài liệu sang DOCX & PPTX</td>\n      <td>Fullstack Team</td>\n      <td><span style=\"color: green; font-weight: bold;\">Hoàn thành 100%</span></td>\n      <td>File mở tốt trên Office 365</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3>3. RỦI RO & ĐỀ XUẤT GIẢI QUYẾT (RISKS & MITIGATION)</h3>\n<ul>\n  <li><strong>Rủi ro:</strong> Trình duyệt di động hiển thị bảng biểu hẹp.<br/>\n  <em>Giải pháp:</em> Áp dụng responsive overflow horizontal scrolling cho khung soạn thảo.</li>\n  <li><strong>Kế hoạch Sprint tiếp theo:</strong> Bổ sung hỗ trợ Real-time Collaboration (WebSocket).</li>\n</ul>\n"
+    },
+    {
+      "id": "doc-tpl-004",
+      "title": "Đơn Xin Nghỉ Phép / Công Tác",
+      "description": "Mẫu đơn hành chính nhân sự chuẩn mực dành cho nhân viên khi xin nghỉ thường niên, nghỉ ốm hoặc đăng ký lịch công tác ngoại tỉnh.",
+      "category": "Nhân sự",
+      "tags": [
+        "Đơn từ",
+        "Hành chính",
+        "Nghỉ phép",
+        "HR"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-02-15T14:20:00Z",
+      "updatedAt": "2026-03-01T09:00:00Z",
+      "contentHtml": "\n<h1 style=\"text-align: center;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h1>\n<p style=\"text-align: center;\"><strong>Độc lập - Tự do - Hạnh phúc</strong></p>\n<p style=\"text-align: center;\">--------o0o--------</p>\n<h2 style=\"text-align: center; color: #d83b01;\">ĐƠN XIN NGHỈ PHÉP</h2>\n\n<p><strong>Kính gửi:</strong></p>\n<ul>\n  <li>Ban Giám Đốc Công ty;</li>\n  <li>Phòng Nhân sự & Hành chính;</li>\n  <li>Trưởng bộ phận: [Tên phòng ban / Trung tâm].</li>\n</ul>\n\n<p>Tôi tên là: <strong>[Họ và tên nhân sự]</strong></p>\n<p>Mã số nhân viên: <strong>EMP-2026-089</strong></p>\n<p>Chức vụ: Chuyên viên Phân tích Dữ liệu</p>\n<p>Bộ phận: Phòng Chuyển đổi số & Dữ liệu</p>\n\n<h3>NỘI DUNG ĐỀ NGHỊ:</h3>\n<p>Nay tôi làm đơn này kính xin Ban Giám đốc và Trưởng bộ phận cho phép tôi được nghỉ phép:</p>\n<ul>\n  <li><strong>Thời gian nghỉ:</strong> Từ ngày .../.../2026 đến hết ngày .../.../2026 (Tổng cộng: 02 ngày làm việc).</li>\n  <li><strong>Lý do nghỉ phép:</strong> Giải quyết công việc cá nhân của gia đình.</li>\n  <li><strong>Người tiếp nhận bàn giao công việc:</strong> Đồng nghiệp Trần Thị Mai - Email: mai.tt@company.com</li>\n</ul>\n\n<p>Tôi cam kết đã hoàn tất bàn giao các đầu việc khẩn cấp và duy trì liên lạc qua điện thoại / email khi có phát sinh đột xuất.</p>\n<p>Kính mong Ban Giám đốc xem xét và chấp thuận.</p>\n<p>Xin trân trọng cảm ơn!</p>\n"
+    },
+    {
+      "id": "doc-tpl-005",
+      "title": "Đề Xuất Dự Án & Dự Toán Ngân Sách (Project Proposal)",
+      "description": "Mẫu đề xuất phê duyệt chủ trương đầu tư dự án mới kèm bảng dự toán phân bổ ngân sách chi tiết và phân tích ROI.",
+      "category": "Dự án",
+      "tags": [
+        "Đề xuất",
+        "Ngân sách",
+        "Dự án",
+        "Kế hoạch",
+        "ROI"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-02-20T10:00:00Z",
+      "updatedAt": "2026-03-18T11:00:00Z",
+      "contentHtml": "\n<h1 style=\"color: #5c2d91;\">TỜ TRÌNH ĐỀ XUẤT CHỦ TRƯƠNG DỰ ÁN</h1>\n<p><strong>Kính gửi:</strong> Hội đồng Quản trị & Ban Tổng Giám Đốc</p>\n<p><strong>Đơn vị đề xuất:</strong> Trung tâm Phát triển Sản phẩm Sáng tạo</p>\n<hr/>\n\n<h3>1. TÊN VÀ TỔNG QUAN DỰ ÁN</h3>\n<p><strong>Tên dự án:</strong> Nâng cấp Nền tảng Tài liệu Văn phòng Thông minh (Smart Office 2026)</p>\n<p><strong>Mục tiêu:</strong> Xây dựng thư viện mẫu tài liệu và trình chiếu đa năng, nâng cao hiệu suất làm việc của cán bộ nhân viên lên 40%, chuẩn hóa nhận diện thương hiệu nội bộ và đối tác.</p>\n\n<h3>2. DỰ TOÁN KINH PHÍ THỰC HIỆN</h3>\n<table border=\"1\" cellpadding=\"8\" style=\"width: 100%; border-collapse: collapse;\">\n  <thead>\n    <tr style=\"background-color: #f3e8ff;\">\n      <th>STT</th>\n      <th>Hạng mục chi phí</th>\n      <th>Số tiền dự toán (VNĐ)</th>\n      <th>Ghi chú</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>1</td>\n      <td>Hạ tầng máy chủ Cloud & Storage</td>\n      <td>45,000,000</td>\n      <td>AWS / GCP phục vụ lưu trữ file tài liệu</td>\n    </tr>\n    <tr>\n      <td>2</td>\n      <td>Thiết kế bộ UI/UX Templates chuẩn mực</td>\n      <td>60,000,000</td>\n      <td>Bao gồm bộ nhận diện DOCX & PPTX</td>\n    </tr>\n    <tr>\n      <td>3</td>\n      <td>Nhân lực phát triển phần mềm (Sprint 3 tháng)</td>\n      <td>180,000,000</td>\n      <td>Team 4 Fullstack Engineers</td>\n    </tr>\n    <tr>\n      <td><strong>Tổng</strong></td>\n      <td colspan=\"2\"><strong>285,000,000 VNĐ (Hai trăm tám mươi lăm triệu đồng)</strong></td>\n      <td>Đã bao gồm thuế</td>\n    </tr>\n  </tbody>\n</table>\n\n<h3>3. HIỆU QUẢ DỰ KIẾN (ROI)</h3>\n<p>Sau 6 tháng đưa vào vận hành, doanh nghiệp sẽ tiết kiệm ước tính hơn 1,200 giờ lao động thủ công mỗi tháng và giảm thiểu tối đa sai sót sai định dạng tài liệu hành chính.</p>\n"
+    },
+    {
+      "id": "doc-tpl-006",
+      "title": "Thư Mời Nhận Việc (Official Job Offer Letter)",
+      "description": "Thư mời ứng viên gia nhập công ty chuyên nghiệp với chi tiết mức lương, gói phúc lợi và hướng dẫn ngày đầu nhận việc.",
+      "category": "Nhân sự",
+      "tags": [
+        "Thư mời",
+        "Tuyển dụng",
+        "HR",
+        "Offer"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "isOfficial": true,
+      "createdAt": "2026-03-01T08:30:00Z",
+      "updatedAt": "2026-03-15T09:40:00Z",
+      "contentHtml": "\n<h1 style=\"color: #185abd; text-align: center;\">THƯ MỜI NHẬN VIỆC (JOB OFFER LETTER)</h1>\n<p style=\"text-align: right;\"><em>Hà Nội, ngày ... tháng ... năm 2026</em></p>\n<p>Thân gửi bạn: <strong>[Họ và tên ứng viên]</strong>,</p>\n\n<p>Thay mặt Công ty, chúng tôi trân trọng chúc mừng bạn đã vượt qua các vòng phỏng vấn xuất sắc và gửi tới bạn lời mời gia nhập đội ngũ của chúng tôi với thông tin chi tiết như sau:</p>\n\n<h3>1. THÔNG TIN VỊ TRÍ & CHẾ ĐỘ ĐÃI NGỘ</h3>\n<ul>\n  <li><strong>Vị trí công tác:</strong> Chuyên viên Cao cấp Phát triển Sản phẩm (Senior Product Engineer)</li>\n  <li><strong>Phòng ban:</strong> Khối Công nghệ & Đổi mới Sáng tạo</li>\n  <li><strong>Cấp quản lý trực tiếp:</strong> Giám đốc Kỹ thuật (Technical Lead)</li>\n  <li><strong>Ngày bắt đầu làm việc:</strong> 15/04/2026</li>\n  <li><strong>Mức lương thỏa thuận:</strong> 42,000,000 VNĐ (Gross) / tháng</li>\n  <li><strong>Thưởng hiệu suất năm:</strong> 2 đến 4 tháng lương dựa theo đánh giá kết quả công việc.</li>\n</ul>\n\n<h3>2. PHÚC LỢI DOANH NGHIỆP</h3>\n<p>- Gói bảo hiểm sức khỏe VIP toàn diện PVI Care cho bản thân và người thân.</p>\n<p>- Được cấp phát Macbook Pro M3 thế hệ mới và trợ cấp thiết bị làm việc công nghệ.</p>\n<p>- 16 ngày nghỉ phép năm có lương và chế độ làm việc linh hoạt kết hợp Remote/Hybrid.</p>\n\n<p>Vui lòng phản hồi xác nhận đồng ý thư mời này trước 17h00 ngày .../.../2026 bằng cách ký xác nhận hoặc gửi email phản hồi.</p>\n<p>Rất hân hạnh được chào đón bạn vào đại gia đình chúng tôi!</p>\n"
+    },
+    {
+      "title": "TESt",
+      "description": "",
+      "category": "Hành chính",
+      "tags": [
+        "bao chi"
+      ],
+      "thumbnailUrl": "https://scontent.fsgn5-2.fna.fbcdn.net/v/t39.99422-6/882727341_2680989645685177_7558627905998300519_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=1&ccb=1-7&_nc_sid=127cfc&_nc_ohc=SBpZQU5Br3QQ7kNvwGNrN7T&_nc_oc=AdqD4SiwmTmZgUNyBr74jdwBF5avnj9sztb0FOwHtOvefBvZKOlo25Dc-bFIwO8fnXs&_nc_zt=14&_nc_ht=scontent.fsgn5-2.fna&_nc_gid=Uegqp7Dx423-55Hn6_3tiw&_nc_ss=7b2a8&oh=00_AQRzOhuwapf1VU2ErMI594RFIuvZXJJxvE2xa6TivX4o-A&oe=6AEC7573",
+      "contentHtml": "<h2>TIÊU ĐỀ MẪU TÀI LIỆU MỚI</h2><p>Nội dung mẫu văn bản có thể chỉnh sửa ở đây...</p>",
+      "isOfficial": false,
+      "id": "16",
+      "isDefault": false,
+      "version": 1,
+      "createdAt": "2026-11-01T03:46:05.093Z",
+      "updatedAt": "2026-11-01T03:46:05.093Z"
+    },
+    {
+      "title": "Văn bản demo",
+      "description": "",
+      "category": "Hành chính",
+      "tags": [
+        "hành chính"
+      ],
+      "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDuQionVJd8B2TQcgvqpRXrIjDONOQcGHWUn-NKZBiQA&s=10",
+      "contentHtml": "<h2>TIÊU ĐỀ MẪU TÀI LIỆU MỚI</h2><p>Nội dung mẫu văn bản có thể chỉnh sửa ở đây...</p>",
+      "isOfficial": false,
+      "id": "17",
+      "isDefault": false,
+      "version": 1,
+      "createdAt": "2026-11-01T04:23:38.127Z",
+      "updatedAt": "2026-11-01T04:23:38.127Z"
+    }
+  ],
+  "userDocuments": [
+    {
+      "id": "6622fd3b-56f4-4173-b925-d16103dffc44",
+      "templateId": "18",
+      "templateTitle": "văn bản demo ngày 01.11.2026",
+      "title": "văn bản demo ngày 01.11.2026 (Bản làm việc)",
+      "contentHtml": "<p><strong>Vi phạm trong tổ chức thực hiện phòng, chống lãng phí</strong></p><p>Là các nhóm hành vi quy định tại khoản 1 Điều 5 Luật số 110/2025/QH15, bao gồm các hành vi cụ thể sau đây:</p><p>1. Hành vi vi phạm về thời hạn ban hành, nội dung của Chương trình tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hoặc ban hành Chương trình tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Ban hành Chương trình tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung theo quy định của pháp luật.</p><p>&nbsp;</p><p>2. Hành vi vi phạm trong thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí đã ban hành:</p><p>&nbsp;</p><p>- Không tổ chức thực hiện, tổ chức thực hiện không đầy đủ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Tổ chức thực hiện không đúng tiến độ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không phân công trách nhiệm thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>3. Hành vi vi phạm về thời hạn, nội dung báo cáo kết quả công tác tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện báo cáo hoặc báo cáo kết quả công tác tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Báo cáo kết quả công tác tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung, yêu cầu theo quy định của pháp luật;</p><p>&nbsp;</p><p>- Cố ý báo cáo không chính xác, không trung thực kết quả, số liệu liên quan đến công tác tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>4. Hành vi vi phạm về cập nhật cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không cập nhật thông tin hoặc cập nhật không đầy đủ dữ liệu vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Cập nhật thông tin vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Cố ý cập nhật thông tin, dữ liệu không chính xác, không trung thực.</p><p>&nbsp;</p><p>5. Hành vi vi phạm về thời hạn, nội dung và hình thức công khai về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện công khai nội dung về tiết kiệm, chống lãng phí theo quy định;</p><p>&nbsp;</p><p>- Công khai không đúng thời hạn, hình thức, không đầy đủ nội dung phải công khai theo quy định;</p><p>&nbsp;</p><p>- Cố ý công khai không chính xác, không trung thực nội dung về tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>6. Hành vi vi phạm trong việc lấy ý kiến cán bộ, công chức, viên chức, người lao động trước khi quyết định đối với các biện pháp tiết kiệm, chống lãng phí tại cơ quan, tổ chức, đơn vị theo quy định của pháp luật về thực hiện dân chủ ở cơ sở.</p><p>&nbsp;</p><p>7. Hành vi cản trở hoặc thiếu trách nhiệm trong thanh tra, kiểm toán, kiểm tra tiết kiệm, chống lãng phí trong từng lĩnh vực của cơ quan, tổ chức có thẩm quyền theo quy định của pháp luật về thanh tra, kiểm toán nhà nước và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>8. Hành vi cản trở hoặc thiếu trách nhiệm trong kiểm tra việc chấp hành, tổ chức thực hiện quy định pháp luật về tiết kiệm, chống lãng phí của cơ quan, tổ chức có thẩm quyền:</p><p>&nbsp;</p><p>- Không cung cấp hoặc cung cấp hồ sơ, tài liệu không đầy đủ, kịp thời, chính xác theo yêu cầu của cơ quan kiểm tra;</p><p>&nbsp;</p><p>- Không bố trí người có trách nhiệm làm việc, không tham gia làm việc hoặc trì hoãn làm việc với cơ quan kiểm tra mà không có lý do chính đáng;</p><p>&nbsp;</p><p>- Không chấp hành hoặc chấp hành không đầy đủ quyết định, yêu cầu, kết luận kiểm tra;</p><p>&nbsp;</p><p>- Không theo dõi, đôn đốc tình hình thực hiện kết luận kiểm tra;</p><p>&nbsp;</p><p>- Hành vi cản trở người thi hành công vụ khác theo quy định của pháp luật.</p><p>&nbsp;</p><p>9. Hành vi cản trở hoặc thiếu trách nhiệm trong xác minh, xử lý, giải quyết, tổ chức thi hành quyết định giải quyết khiếu nại, tố cáo về tiết kiệm, chống lãng phí theo quy định của pháp luật về tiếp công dân, khiếu nại, tố cáo và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>10. Hành vi vi phạm trong bảo vệ người đấu tranh chống lãng phí và người thân của người đấu tranh chống lãng phí (người thân) theo quy định của pháp luật về tố cáo, tố tụng hình sự.</p><p>&nbsp;</p><p>11. Hành vi vi phạm trong tổ chức thực hiện Ngày toàn dân tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hướng dẫn tổ chức Ngày toàn dân tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không triển khai hoặc triển khai Ngày toàn dân tiết kiệm, chống lãng phí không đúng với nguyên tắc, nội dung, hình thức quy định tại Điều 8 và Điều 9 Nghị định 266/2026/NĐ-CP.</p>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:27:54.374Z",
+      "lastModified": "2026-11-01T04:28:09.105Z"
+    },
+    {
+      "id": "b936730f-3b9d-4677-bd97-3f5de22cf251",
+      "templateId": "17",
+      "templateTitle": "Văn bản demo",
+      "title": "Văn bản demo (Bản làm việc)",
+      "contentHtml": "<p><strong>Vi phạm trong tổ chức thực hiện phòng, chống lãng phí</strong></p><p>Là các nhóm hành vi quy định tại khoản 1 Điều 5 Luật số 110/2025/QH15, bao gồm các hành vi cụ thể sau đây:</p><p>1. Hành vi vi phạm về thời hạn ban hành, nội dung của Chương trình tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hoặc ban hành Chương trình tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Ban hành Chương trình tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung theo quy định của pháp luật.</p><p>&nbsp;</p><p>2. Hành vi vi phạm trong thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí đã ban hành:</p><p>&nbsp;</p><p>- Không tổ chức thực hiện, tổ chức thực hiện không đầy đủ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Tổ chức thực hiện không đúng tiến độ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không phân công trách nhiệm thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>3. Hành vi vi phạm về thời hạn, nội dung báo cáo kết quả công tác tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện báo cáo hoặc báo cáo kết quả công tác tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Báo cáo kết quả công tác tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung, yêu cầu theo quy định của pháp luật;</p><p>&nbsp;</p><p>- Cố ý báo cáo không chính xác, không trung thực kết quả, số liệu liên quan đến công tác tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>4. Hành vi vi phạm về cập nhật cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không cập nhật thông tin hoặc cập nhật không đầy đủ dữ liệu vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Cập nhật thông tin vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Cố ý cập nhật thông tin, dữ liệu không chính xác, không trung thực.</p><p>&nbsp;</p><p>5. Hành vi vi phạm về thời hạn, nội dung và hình thức công khai về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện công khai nội dung về tiết kiệm, chống lãng phí theo quy định;</p><p>&nbsp;</p><p>- Công khai không đúng thời hạn, hình thức, không đầy đủ nội dung phải công khai theo quy định;</p><p>&nbsp;</p><p>- Cố ý công khai không chính xác, không trung thực nội dung về tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>6. Hành vi vi phạm trong việc lấy ý kiến cán bộ, công chức, viên chức, người lao động trước khi quyết định đối với các biện pháp tiết kiệm, chống lãng phí tại cơ quan, tổ chức, đơn vị theo quy định của pháp luật về thực hiện dân chủ ở cơ sở.</p><p>&nbsp;</p><p>7. Hành vi cản trở hoặc thiếu trách nhiệm trong thanh tra, kiểm toán, kiểm tra tiết kiệm, chống lãng phí trong từng lĩnh vực của cơ quan, tổ chức có thẩm quyền theo quy định của pháp luật về thanh tra, kiểm toán nhà nước và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>8. Hành vi cản trở hoặc thiếu trách nhiệm trong kiểm tra việc chấp hành, tổ chức thực hiện quy định pháp luật về tiết kiệm, chống lãng phí của cơ quan, tổ chức có thẩm quyền:</p><p>&nbsp;</p><p>- Không cung cấp hoặc cung cấp hồ sơ, tài liệu không đầy đủ, kịp thời, chính xác theo yêu cầu của cơ quan kiểm tra;</p><p>&nbsp;</p><p>- Không bố trí người có trách nhiệm làm việc, không tham gia làm việc hoặc trì hoãn làm việc với cơ quan kiểm tra mà không có lý do chính đáng;</p><p>&nbsp;</p><p>- Không chấp hành hoặc chấp hành không đầy đủ quyết định, yêu cầu, kết luận kiểm tra;</p><p>&nbsp;</p><p>- Không theo dõi, đôn đốc tình hình thực hiện kết luận kiểm tra;</p><p>&nbsp;</p><p>- Hành vi cản trở người thi hành công vụ khác theo quy định của pháp luật.</p><p>&nbsp;</p><p>9. Hành vi cản trở hoặc thiếu trách nhiệm trong xác minh, xử lý, giải quyết, tổ chức thi hành quyết định giải quyết khiếu nại, tố cáo về tiết kiệm, chống lãng phí theo quy định của pháp luật về tiếp công dân, khiếu nại, tố cáo và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>10. Hành vi vi phạm trong bảo vệ người đấu tranh chống lãng phí và người thân của người đấu tranh chống lãng phí (người thân) theo quy định của pháp luật về tố cáo, tố tụng hình sự.</p><p>&nbsp;</p><p>11. Hành vi vi phạm trong tổ chức thực hiện Ngày toàn dân tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hướng dẫn tổ chức Ngày toàn dân tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không triển khai hoặc triển khai Ngày toàn dân tiết kiệm, chống lãng phí không đúng với nguyên tắc, nội dung, hình thức quy định tại Điều 8 và Điều 9 Nghị định 266/2026/NĐ-CP.</p>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:25:38.467Z",
+      "lastModified": "2026-11-01T04:25:52.713Z"
+    },
+    {
+      "id": "a6db8cb3-eb95-4d56-a027-a37f5da72e31",
+      "templateId": "17",
+      "templateTitle": "Văn bản demo",
+      "title": "Văn bản demo (Bản làm việc)",
+      "contentHtml": "<p><strong>Vi phạm trong tổ chức thực hiện phòng, chống lãng phí</strong></p><p>Là các nhóm hành vi quy định tại khoản 1 Điều 5 Luật số 110/2025/QH15, bao gồm các hành vi cụ thể sau đây:</p><p>1. Hành vi vi phạm về thời hạn ban hành, nội dung của Chương trình tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hoặc ban hành Chương trình tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Ban hành Chương trình tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung theo quy định của pháp luật.</p><p>&nbsp;</p><p>2. Hành vi vi phạm trong thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí đã ban hành:</p><p>&nbsp;</p><p>- Không tổ chức thực hiện, tổ chức thực hiện không đầy đủ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Tổ chức thực hiện không đúng tiến độ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không phân công trách nhiệm thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>3. Hành vi vi phạm về thời hạn, nội dung báo cáo kết quả công tác tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện báo cáo hoặc báo cáo kết quả công tác tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Báo cáo kết quả công tác tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung, yêu cầu theo quy định của pháp luật;</p><p>&nbsp;</p><p>- Cố ý báo cáo không chính xác, không trung thực kết quả, số liệu liên quan đến công tác tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>4. Hành vi vi phạm về cập nhật cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không cập nhật thông tin hoặc cập nhật không đầy đủ dữ liệu vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Cập nhật thông tin vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Cố ý cập nhật thông tin, dữ liệu không chính xác, không trung thực.</p><p>&nbsp;</p><p>5. Hành vi vi phạm về thời hạn, nội dung và hình thức công khai về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện công khai nội dung về tiết kiệm, chống lãng phí theo quy định;</p><p>&nbsp;</p><p>- Công khai không đúng thời hạn, hình thức, không đầy đủ nội dung phải công khai theo quy định;</p><p>&nbsp;</p><p>- Cố ý công khai không chính xác, không trung thực nội dung về tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>6. Hành vi vi phạm trong việc lấy ý kiến cán bộ, công chức, viên chức, người lao động trước khi quyết định đối với các biện pháp tiết kiệm, chống lãng phí tại cơ quan, tổ chức, đơn vị theo quy định của pháp luật về thực hiện dân chủ ở cơ sở.</p><p>&nbsp;</p><p>7. Hành vi cản trở hoặc thiếu trách nhiệm trong thanh tra, kiểm toán, kiểm tra tiết kiệm, chống lãng phí trong từng lĩnh vực của cơ quan, tổ chức có thẩm quyền theo quy định của pháp luật về thanh tra, kiểm toán nhà nước và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>8. Hành vi cản trở hoặc thiếu trách nhiệm trong kiểm tra việc chấp hành, tổ chức thực hiện quy định pháp luật về tiết kiệm, chống lãng phí của cơ quan, tổ chức có thẩm quyền:</p><p>&nbsp;</p><p>- Không cung cấp hoặc cung cấp hồ sơ, tài liệu không đầy đủ, kịp thời, chính xác theo yêu cầu của cơ quan kiểm tra;</p><p>&nbsp;</p><p>- Không bố trí người có trách nhiệm làm việc, không tham gia làm việc hoặc trì hoãn làm việc với cơ quan kiểm tra mà không có lý do chính đáng;</p><p>&nbsp;</p><p>- Không chấp hành hoặc chấp hành không đầy đủ quyết định, yêu cầu, kết luận kiểm tra;</p><p>&nbsp;</p><p>- Không theo dõi, đôn đốc tình hình thực hiện kết luận kiểm tra;</p><p>&nbsp;</p><p>- Hành vi cản trở người thi hành công vụ khác theo quy định của pháp luật.</p><p>&nbsp;</p><p>9. Hành vi cản trở hoặc thiếu trách nhiệm trong xác minh, xử lý, giải quyết, tổ chức thi hành quyết định giải quyết khiếu nại, tố cáo về tiết kiệm, chống lãng phí theo quy định của pháp luật về tiếp công dân, khiếu nại, tố cáo và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>10. Hành vi vi phạm trong bảo vệ người đấu tranh chống lãng phí và người thân của người đấu tranh chống lãng phí (người thân) theo quy định của pháp luật về tố cáo, tố tụng hình sự.</p><p>&nbsp;</p><p>11. Hành vi vi phạm trong tổ chức thực hiện Ngày toàn dân tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hướng dẫn tổ chức Ngày toàn dân tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không triển khai hoặc triển khai Ngày toàn dân tiết kiệm, chống lãng phí không đúng với nguyên tắc, nội dung, hình thức quy định tại Điều 8 và Điều 9 Nghị định 266/2026/NĐ-CP.</p>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:25:19.036Z",
+      "lastModified": "2026-11-01T04:25:29.253Z"
+    },
+    {
+      "id": "0777fb84-8aec-4e1a-802c-070798432e94",
+      "templateId": "17",
+      "templateTitle": "Văn bản demo",
+      "title": "Văn bản demo (Bản làm việc)",
+      "contentHtml": "<h2>TIÊU ĐỀ MẪU TÀI LIỆU MỚI</h2><p>Nội dung mẫu văn bản có thể chỉnh sửa ở đây...</p>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:25:03.422Z",
+      "lastModified": "2026-11-01T04:25:03.422Z"
+    },
+    {
+      "id": "de05fa00-8af1-4374-9314-1a960c86c5b0",
+      "templateId": "17",
+      "templateTitle": "Văn bản demo",
+      "title": "Văn bản demo (Bản làm việc)",
+      "contentHtml": "<p><strong>Vi phạm trong tổ chức thực hiện phòng, chống lãng phí</strong></p><p>Là các nhóm hành vi quy định tại khoản 1 Điều 5 Luật số 110/2025/QH15, bao gồm các hành vi cụ thể sau đây:</p><p>1. Hành vi vi phạm về thời hạn ban hành, nội dung của Chương trình tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hoặc ban hành Chương trình tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Ban hành Chương trình tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung theo quy định của pháp luật.</p><p>&nbsp;</p><p>2. Hành vi vi phạm trong thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí đã ban hành:</p><p>&nbsp;</p><p>- Không tổ chức thực hiện, tổ chức thực hiện không đầy đủ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Tổ chức thực hiện không đúng tiến độ các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không phân công trách nhiệm thực hiện các nhiệm vụ, chỉ tiêu, yêu cầu, biện pháp, giải pháp tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>3. Hành vi vi phạm về thời hạn, nội dung báo cáo kết quả công tác tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện báo cáo hoặc báo cáo kết quả công tác tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Báo cáo kết quả công tác tiết kiệm, chống lãng phí không đảm bảo đầy đủ nội dung, yêu cầu theo quy định của pháp luật;</p><p>&nbsp;</p><p>- Cố ý báo cáo không chính xác, không trung thực kết quả, số liệu liên quan đến công tác tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>4. Hành vi vi phạm về cập nhật cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không cập nhật thông tin hoặc cập nhật không đầy đủ dữ liệu vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Cập nhật thông tin vào cơ sở dữ liệu quốc gia về tiết kiệm, chống lãng phí không đúng thời hạn quy định;</p><p>&nbsp;</p><p>- Cố ý cập nhật thông tin, dữ liệu không chính xác, không trung thực.</p><p>&nbsp;</p><p>5. Hành vi vi phạm về thời hạn, nội dung và hình thức công khai về tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không thực hiện công khai nội dung về tiết kiệm, chống lãng phí theo quy định;</p><p>&nbsp;</p><p>- Công khai không đúng thời hạn, hình thức, không đầy đủ nội dung phải công khai theo quy định;</p><p>&nbsp;</p><p>- Cố ý công khai không chính xác, không trung thực nội dung về tiết kiệm, chống lãng phí.</p><p>&nbsp;</p><p>6. Hành vi vi phạm trong việc lấy ý kiến cán bộ, công chức, viên chức, người lao động trước khi quyết định đối với các biện pháp tiết kiệm, chống lãng phí tại cơ quan, tổ chức, đơn vị theo quy định của pháp luật về thực hiện dân chủ ở cơ sở.</p><p>&nbsp;</p><p>7. Hành vi cản trở hoặc thiếu trách nhiệm trong thanh tra, kiểm toán, kiểm tra tiết kiệm, chống lãng phí trong từng lĩnh vực của cơ quan, tổ chức có thẩm quyền theo quy định của pháp luật về thanh tra, kiểm toán nhà nước và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>8. Hành vi cản trở hoặc thiếu trách nhiệm trong kiểm tra việc chấp hành, tổ chức thực hiện quy định pháp luật về tiết kiệm, chống lãng phí của cơ quan, tổ chức có thẩm quyền:</p><p>&nbsp;</p><p>- Không cung cấp hoặc cung cấp hồ sơ, tài liệu không đầy đủ, kịp thời, chính xác theo yêu cầu của cơ quan kiểm tra;</p><p>&nbsp;</p><p>- Không bố trí người có trách nhiệm làm việc, không tham gia làm việc hoặc trì hoãn làm việc với cơ quan kiểm tra mà không có lý do chính đáng;</p><p>&nbsp;</p><p>- Không chấp hành hoặc chấp hành không đầy đủ quyết định, yêu cầu, kết luận kiểm tra;</p><p>&nbsp;</p><p>- Không theo dõi, đôn đốc tình hình thực hiện kết luận kiểm tra;</p><p>&nbsp;</p><p>- Hành vi cản trở người thi hành công vụ khác theo quy định của pháp luật.</p><p>&nbsp;</p><p>9. Hành vi cản trở hoặc thiếu trách nhiệm trong xác minh, xử lý, giải quyết, tổ chức thi hành quyết định giải quyết khiếu nại, tố cáo về tiết kiệm, chống lãng phí theo quy định của pháp luật về tiếp công dân, khiếu nại, tố cáo và quy định pháp luật khác có liên quan.</p><p>&nbsp;</p><p>10. Hành vi vi phạm trong bảo vệ người đấu tranh chống lãng phí và người thân của người đấu tranh chống lãng phí (người thân) theo quy định của pháp luật về tố cáo, tố tụng hình sự.</p><p>&nbsp;</p><p>11. Hành vi vi phạm trong tổ chức thực hiện Ngày toàn dân tiết kiệm, chống lãng phí:</p><p>&nbsp;</p><p>- Không ban hành hướng dẫn tổ chức Ngày toàn dân tiết kiệm, chống lãng phí;</p><p>&nbsp;</p><p>- Không triển khai hoặc triển khai Ngày toàn dân tiết kiệm, chống lãng phí không đúng với nguyên tắc, nội dung, hình thức quy định tại Điều 8 và Điều 9 Nghị định 266/2026/NĐ-CP.</p>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:23:56.220Z",
+      "lastModified": "2026-11-01T04:24:27.650Z"
+    },
+    {
+      "id": "4df90d2a-632f-4a4c-9b58-5e05ba48b58e",
+      "templateId": "16",
+      "templateTitle": "TESt",
+      "title": "TESt (Bản làm việc)",
+      "contentHtml": "<table style=\"min-width: 50px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center;\"><strong>BỘ Y TẾ<br>-------</strong></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center;\"><strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc<br>---------------</strong></p></td></tr><tr><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center;\">Số: 34/2026/TT-BYT</p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: right;\"><em>Hà Nội, ngày 08 tháng 9 năm 2026</em></p></td></tr></tbody></table><p style=\"text-align: left;\"><strong>&nbsp;</strong></p><p style=\"text-align: center;\"><span style=\"color: unset;\"><strong>THÔNG TƯ</strong></span></p><p style=\"text-align: center;\">HƯỚNG DẪN MỘT SỐ NỘI DUNG THỰC HIỆN CHƯƠNG TRÌNH MỤC TIÊU QUỐC GIA VỀ CHĂM SÓC SỨC KHỎE, DÂN SỐ VÀ PHÁT TRIỂN GIAI ĐOẠN 2026-2035, GIAI ĐOẠN I: TỪ NĂM 2026 ĐẾN NĂM 2030 THUỘC PHẠM VI QUẢN LÝ NHÀ NƯỚC CỦA BỘ Y TẾ</p><p style=\"text-align: left;\"><em>Căn cứ Nghị định số 358/2025/NĐ-CP của Chính phủ quy định cơ chế quản lý, tổ chức thực hiện các chương trình mục tiêu quốc gia;</em></p><p style=\"text-align: left;\"><em>Căn cứ Nghị định số 313/2026/NĐ-CP của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Y tế;</em></p><p style=\"text-align: left;\"><em>Theo đề nghị của Vụ trưởng Vụ Kế hoạch - Tài chính;</em></p><p style=\"text-align: left;\"><em>Bộ trưởng Bộ Y tế ban hành Thông tư hướng dẫn một số nội dung thực hiện Chương trình mục tiêu quốc gia về chăm sóc sức khỏe, dân số và phát triển giai đoạn 2026-2035, giai đoạn I: từ năm 2026 đến năm 2030 thuộc phạm vi quản lý nhà nước của Bộ Y tế.</em></p><p style=\"text-align: left;\"><strong>Điều 1. Phạm vi điều chỉnh</strong></p><p style=\"text-align: left;\">1. Thông tư này hướng dẫn thực hiện một số nội dung tại Quyết định số 1709/QĐ-BYT ngày 12 tháng 6 năm 2026 của Bộ trưởng Bộ Y tế (sau đây gọi là Quyết định số 1709/QĐ-BYT) phê duyệt Chương trình mục tiêu quốc gia về chăm sóc sức khỏe, dân số và phát triển giai đoạn 2026-2035, giai đoạn I: từ năm 2026 đến năm 2030 (sau đây gọi là Chương trình) thuộc trách nhiệm chủ trì, hướng dẫn của Bộ Y tế.</p><p style=\"text-align: left;\">2. Các nội dung khác của Chương trình không thuộc phạm vi quy định tại khoản 1 Điều này, việc tổ chức thực hiện theo hướng dẫn của bộ, cơ quan trung ương được phân công chủ trì, hướng dẫn tại Quyết định số 1709/QĐ-BYT và quy định pháp luật hiện hành về quản lý, tổ chức thực hiện các chương trình mục tiêu quốc gia.</p><p style=\"text-align: left;\"><strong>Điều 2. Nguyên tắc thực hiện Chương trình</strong></p><p style=\"text-align: left;\">1. Việc thực hiện Chương trình tuân thủ các nguyên tắc quy định tại Điều 4 Nghị định số 358/2025/NĐ-CP quy định cơ chế quản lý, tổ chức thực hiện các chương trình mục tiêu quốc gia; bảo đảm đúng mục tiêu, đúng đối tượng, đúng phạm vi của Chương trình.</p><p style=\"text-align: left;\">2. Bảo đảm không trùng lặp với các chương trình mục tiêu quốc gia khác, các hoạt động thuộc nhiệm vụ quản lý nhà nước đã được bố trí đầy đủ từ kinh phí chi thường xuyên hằng năm; khuyến khích, huy động sự tham gia, đóng góp của tổ chức, gia đình, cá nhân trong công tác chăm sóc sức khỏe, dân số và phát triển.</p><p style=\"text-align: left;\">3. Việc huy động, quản lý và sử dụng các nguồn lực thực hiện Chương trình tuân thủ quy định của pháp luật về ngân sách nhà nước, đầu tư công và các quy định pháp luật có liên quan.</p><p style=\"text-align: left;\">4. Nội dung hướng dẫn tại Thông tư này là căn cứ chuyên môn để địa phương, đơn vị lập kế hoạch, lựa chọn nhiệm vụ và tổ chức thực hiện.</p><p style=\"text-align: left;\"><strong>Điều 3. Hướng dẫn thực hiện các Dự án, Tiểu dự án của Chương trình thuộc phạm vi quản lý nhà nước của Bộ Y tế</strong></p><p style=\"text-align: left;\">1. Nội dung hướng dẫn thực hiện các Dự án, Tiểu dự án của Chương trình, bao gồm:</p><p style=\"text-align: left;\">a) Nội dung hướng dẫn thực hiện đầu tư cơ sở hạ tầng, mua sắm thiết bị, vật tư, hàng hóa, dịch vụ của Chương trình theo quy định tại Phụ lục I ban hành kèm theo Thông tư này;</p><p style=\"text-align: left;\">b) Nội dung hướng dẫn thực hiện hoạt động chuyên môn của Chương trình theo quy định tại Phụ lục II ban hành kèm theo Thông tư này;</p><p style=\"text-align: left;\">c) Bộ chỉ số giám sát, đánh giá thực hiện Chương trình theo quy định tại Phụ lục III ban hành kèm theo Thông tư này.</p><p style=\"text-align: left;\">2. Nội dung hỗ trợ từ ngân sách nhà nước của Chương trình thực hiện các Dự án, Tiểu dự án:</p><p style=\"text-align: left;\">a) Vốn đầu tư công hỗ trợ các nội dung sau đây:</p><p style=\"text-align: left;\">- Tiểu dự án 1, Dự án 1: Đầu tư cơ sở hạ tầng, thiết bị cho y tế cơ sở: Nội dung về xây mới, nâng cấp, mở rộng hạ tầng và đầu tư thiết bị cho các trạm y tế xã, phường, đặc khu, cơ sở quân dân y do chính quyền địa phương quản lý;</p><p style=\"text-align: left;\">- Tiểu dự án 4, Dự án 1: Chuyển đổi số trong quản lý, theo dõi và tư vấn sức khỏe toàn diện: Nội dung về đầu tư xây dựng “Nền tảng Trạm y tế xã”;</p><p style=\"text-align: left;\">- Tiểu dự án 1, Dự án 2: Đầu tư thiết bị cho hệ thống phòng bệnh và nâng cao sức khỏe tại tuyến tỉnh;</p><p style=\"text-align: left;\">- Tiểu dự án 1, Dự án 4: Nâng cao năng lực mạng lưới chăm sóc xã hội toàn diện: Nội dung về đầu tư xây mới, mở rộng cơ sở vật chất và mua sắm tài sản, trang thiết bị cho cơ sở chăm sóc người cao tuổi, cơ sở bảo trợ xã hội (gồm: cơ sở khu vực, cơ sở chính, cơ sở chi nhánh, phân khu thực hiện nhiệm vụ chăm sóc người cao tuổi, chăm sóc và phục hồi chức năng người tâm thần, cơ sở bảo trợ xã hội tổng hợp và trung tâm công tác xã hội.</p><p style=\"text-align: left;\">b) Kinh phí thường xuyên hỗ trợ các nội dung còn lại của Chương trình bảo đảm nguyên tắc tại Khoản 2 Điều 2 Thông tư này.</p><p style=\"text-align: left;\"><strong>Điều 4. Hiệu lực thi hành</strong></p><p style=\"text-align: left;\">1. Thông tư này có hiệu lực thi hành kể từ ngày 08 tháng 9 năm 2026.</p><p style=\"text-align: left;\">2. Trường hợp văn bản được dẫn chiếu tại Thông tư này được sửa đổi, bổ sung hoặc thay thế, thì áp dụng theo văn bản sửa đổi, bổ sung hoặc thay thế đó.</p><p style=\"text-align: left;\"><strong>Điều 5. Tổ chức thực hiện</strong></p><p style=\"text-align: left;\">1. Các đơn vị thuộc, trực thuộc Bộ Y tế:</p><p style=\"text-align: left;\">a) Vụ Kế hoạch - Tài chính làm đầu mối giúp Bộ Y tế quản lý, theo dõi, điều phối và tổng hợp kết quả thực hiện chung của Chương trình; phối hợp với các cơ quan, đơn vị liên quan tổ chức kiểm tra, giám sát, đánh giá tình hình thực hiện Chương trình.</p><p style=\"text-align: left;\">b) Đơn vị được Bộ trưởng Bộ Y tế giao chủ dự án, chủ tiểu dự án của Chương trình:</p><p style=\"text-align: left;\">- Chủ trì hướng dẫn thực hiện dự án, tiểu dự án được giao;</p><p style=\"text-align: left;\">- Chủ tiểu dự án tổng hợp, trình cấp có thẩm quyền phê duyệt kế hoạch, nhiệm vụ hàng năm của tiểu dự án theo quy định;</p><p style=\"text-align: left;\">- Theo dõi, kiểm tra, đánh giá kết quả thực hiện mục tiêu, nhiệm vụ và thực hiện chế độ báo cáo theo quy định đối với dự án, tiểu dự án được giao chủ trì.</p><p style=\"text-align: left;\">c) Đơn vị được giao nhiệm vụ tại các Phụ lục kèm theo Thông tư này triển khai thực hiện nhiệm vụ bảo đảm đồng bộ, thống nhất, đúng mục tiêu, đúng đối tượng và phù hợp với điều kiện thực tế.</p><p style=\"text-align: left;\">2. Các bộ, cơ quan trung ương, Ủy ban nhân dân các tỉnh, thành phố căn cứ chức năng, nhiệm vụ được giao, tổ chức triển khai thực hiện các nội dung của Chương trình thuộc phạm vi quản lý nhà nước của Bộ Y tế theo quy định tại Thông tư này; chỉ đạo các cơ quan, đơn vị trực thuộc phối hợp thực hiện, bảo đảm đồng bộ, thống nhất, đúng mục tiêu, đúng đối tượng và phù hợp với điều kiện thực tế.</p><p style=\"text-align: left;\">Trong quá trình thực hiện, nếu có vướng mắc, các cơ quan, đơn vị có liên quan phản ánh về Bộ Y tế để tổng hợp, nghiên cứu, xử lý theo thẩm quyền, hoặc đề xuất cấp có thẩm quyền xem xét, xử lý theo quy định./.</p><p style=\"text-align: left;\">&nbsp;</p><table style=\"min-width: 50px;\"><colgroup><col style=\"min-width: 25px;\"><col style=\"min-width: 25px;\"></colgroup><tbody><tr><td colspan=\"1\" rowspan=\"1\"><p><strong><em><br>Nơi nhận:<br></em></strong><span>- Ban Bí thư Trung ương Đảng;<br>- Thủ tướng, các Phó Thủ tướng Chính phủ;<br>- Các bộ, cơ quan ngang bộ;<br>- HĐND, UBND các tỉnh, thành phố trực thuộc Trung ương;<br>- Văn phòng Trung ương và các Ban của Đảng;<br>- Văn phòng Tổng Bí thư;<br>- Văn phòng Chủ tịch nước;<br>- Hội đồng Dân tộc và các Ủy ban của Quốc hội;<br>- Văn phòng Quốc hội;<br>- Tòa án nhân dân tối cao;<br>- Viện kiểm sát nhân dân tối cao;<br>- Kiểm toán nhà nước;<br>- Ngân hàng Chính sách xã hội;<br>- Ngân hàng Phát triển Việt Nam;<br>- Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam;<br>- Cơ quan Trung ương của các tổ chức chính trị - xã hội;<br>- Đ/c Bộ trưởng Bộ Y tế (để báo cáo);<br>- Các đ/c Thứ trưởng Bộ Y tế (để phối hợp chỉ đạo);<br>- Các Sở Y tế tỉnh, thành phố trực thuộc Trung ương;<br>- Công báo; Cổng Thông tin điện tử Chính phủ;<br>- Các Vụ, Cục, Văn phòng Bộ - Bộ Y tế;<br>- Cổng Thông tin điện tử Bộ Y tế;<br>- Lưu: VT, KHTC, PC.</span></p></td><td colspan=\"1\" rowspan=\"1\"><p style=\"text-align: center;\"><strong>KT. BỘ TRƯỞNG<br>THỨ TRƯỞNG<br><br><br><br><br>Nguyễn Thị Liên Hương</strong></p></td></tr></tbody></table>",
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T03:46:12.748Z",
+      "lastModified": "2026-11-01T03:47:08.225Z"
+    }
+  ],
+  "presentationTemplates": [
+    {
+      "id": "pres-tpl-001",
+      "title": "Startup Pitch Deck (Gọi Vốn Đầu Tư Hạt Giống)",
+      "description": "Bộ slide thuyết trình chuẩn quốc tế dành cho startup công nghệ: Bài toán thị trường, Giải pháp đột phá, Traction, Mô hình kinh doanh & Đội ngũ sáng lập.",
+      "category": "Startup Pitch",
+      "tags": [
+        "Pitch Deck",
+        "Startup",
+        "Gọi vốn",
+        "Venture Capital",
+        "Kinh doanh"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "createdAt": "2026-01-20T10:00:00Z",
+      "updatedAt": "2026-03-12T15:00:00Z",
+      "theme": {
+        "name": "Modern Tech Indigo",
+        "primaryColor": "#4f46e5",
+        "secondaryColor": "#06b6d4",
+        "accentColor": "#f59e0b",
+        "backgroundColor": "#0f172a",
+        "textColor": "#ffffff",
+        "fontHeading": "Inter, sans-serif",
+        "fontBody": "Inter, sans-serif"
+      },
+      "slides": [
+        {
+          "id": "s1-1",
+          "slideNumber": 1,
+          "title": "NEXUS OFFICE AI",
+          "subtitle": "Định hình lại tương lai năng suất văn phòng thông minh thế hệ mới",
+          "layout": "title",
+          "notes": "Giới thiệu tầm nhìn cốt lõi và định vị giá trị của sản phẩm trong 30 giây đầu tiên.",
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "s1-2",
+          "slideNumber": 2,
+          "title": "BÀI TOÁN THỊ TRƯỜNG",
+          "subtitle": "Các doanh nghiệp đang lãng phí hàng tỷ giờ mỗi năm cho tài liệu thủ công",
+          "layout": "bullet",
+          "bullets": [
+            "82% nhân viên văn phòng mất từ 4-6 giờ mỗi tuần tìm kiếm và format mẫu tài liệu.",
+            "Các mẫu văn bản truyền thống rời rạc, dễ bị ghi đè làm hỏng file gốc của công ty.",
+            "Thiếu sự đồng bộ giữa soạn thảo văn bản và thuyết trình kinh doanh.",
+            "Chi phí bản quyền phần mềm nước ngoài đắt đỏ và không tối ưu cho pháp lý địa phương."
+          ],
+          "notes": "Nhấn mạnh nỗi đau (pain point) sâu sắc của thị trường văn phòng hiện nay.",
+          "backgroundColor": "#1e293b"
+        },
+        {
+          "id": "s1-3",
+          "slideNumber": 3,
+          "title": "GIẢI PHÁP ĐỘT PHÁ",
+          "subtitle": "Hệ sinh thái thư viện mẫu kết hợp trình soạn thảo thông minh",
+          "layout": "two-column",
+          "columnLeft": [
+            "Thư viện tập trung: Quản lý hàng trăm mẫu DOCX & PPTX chuẩn doanh nghiệp.",
+            "Cơ chế Copy-on-Write: Nhân bản độc lập, bảo vệ tuyệt đối file gốc.",
+            "Trình soạn thảo tích hợp: Chỉnh sửa trực tiếp trên trình duyệt mà không cần cài đặt."
+          ],
+          "columnRight": [
+            "Xuất chuẩn Microsoft Office: 100% tương thích DOCX và PPTX nguyên bản.",
+            "Tốc độ vượt trội: Khởi tạo tài liệu trong chưa đầy 3 giây.",
+            "Khả năng mở rộng không giới hạn: API RESTful sẵn sàng cho tích hợp hệ thống."
+          ],
+          "notes": "Chỉ rõ sự khác biệt của sản phẩm so với các công cụ đơn lẻ khác.",
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "s1-4",
+          "slideNumber": 4,
+          "title": "TRACTION & TĂNG TRƯỞNG ẤN TƯỢNG",
+          "subtitle": "Các chỉ số tăng trưởng thực tế trong 6 tháng vừa qua",
+          "layout": "metrics",
+          "metrics": [
+            {
+              "label": "Doanh nghiệp tin dùng",
+              "value": "250+",
+              "description": "Tăng trưởng 45% MoM"
+            },
+            {
+              "label": "Tài liệu đã khởi tạo",
+              "value": "1.2M",
+              "description": "Tiết kiệm 300,000 giờ làm việc"
+            },
+            {
+              "label": "Doanh thu định kỳ (ARR)",
+              "value": "$450K",
+              "description": "Đạt mốc hòa vốn sau 9 tháng"
+            }
+          ],
+          "notes": "Trình bày số liệu chứng minh Product-Market Fit.",
+          "backgroundColor": "#1e293b"
+        },
+        {
+          "id": "s1-5",
+          "slideNumber": 5,
+          "title": "KẾ HOẠCH GỌI VỐN $1.5M",
+          "subtitle": "Tăng tốc mở rộng thị trường khu vực Đông Nam Á",
+          "layout": "conclusion",
+          "bullets": [
+            "50% Ngân sách: Phát triển đội ngũ Kỹ sư AI & Cloud Infrastructure.",
+            "30% Ngân sách: Mở rộng kênh tiếp thị B2B Enterprise & Đối tác chiến lược.",
+            "20% Ngân sách: Quỹ dự phòng vận hành & Bản quyền sở hữu trí tuệ."
+          ],
+          "notes": "Kêu gọi đầu tư rõ ràng và lộ trình sử dụng vốn minh bạch.",
+          "backgroundColor": "#0f172a"
+        }
+      ]
+    },
+    {
+      "id": "pres-tpl-002",
+      "title": "Báo Cáo Kết Quả Kinh Doanh Quý (Quarterly Business Review)",
+      "description": "Bộ slide trang trọng, sắc sảo dành cho cuộc họp HĐQT và ban điều hành: Tổng kết doanh thu, chỉ số KPI, hiệu suất phòng ban và mục tiêu chiến lược.",
+      "category": "Kinh doanh",
+      "tags": [
+        "Báo cáo",
+        "Kinh doanh",
+        "QBR",
+        "Doanh thu",
+        "Chiến lược"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1551836022-4a4c79ecde51?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "createdAt": "2026-02-05T08:00:00Z",
+      "updatedAt": "2026-03-18T14:30:00Z",
+      "theme": {
+        "name": "Corporate Executive Navy",
+        "primaryColor": "#0284c7",
+        "secondaryColor": "#10b981",
+        "accentColor": "#38bdf8",
+        "backgroundColor": "#0c4a6e",
+        "textColor": "#ffffff",
+        "fontHeading": "Inter, sans-serif",
+        "fontBody": "Inter, sans-serif"
+      },
+      "slides": [
+        {
+          "id": "s2-1",
+          "slideNumber": 1,
+          "title": "BÁO CÁO KẾT QUẢ KINH DOANH Q3/2026",
+          "subtitle": "Đánh giá hiệu suất tài chính & Định hướng chiến lược Quý IV",
+          "layout": "title",
+          "notes": "Lời mở đầu của Giám đốc Tài chính hoặc Tổng Giám đốc.",
+          "backgroundColor": "#0c4a6e"
+        },
+        {
+          "id": "s2-2",
+          "slideNumber": 2,
+          "title": "TỔNG QUAN TÀI CHÍNH QUÝ III",
+          "subtitle": "Vượt mục tiêu doanh thu và lợi nhuận gộp toàn diện",
+          "layout": "metrics",
+          "metrics": [
+            {
+              "label": "Tổng Doanh Thu",
+              "value": "48.5 Tỷ",
+              "description": "Đạt 118% kế hoạch quý"
+            },
+            {
+              "label": "Lợi Nhuận Trước Thuế",
+              "value": "14.2 Tỷ",
+              "description": "Tăng 28% so với cùng kỳ năm trước"
+            },
+            {
+              "label": "Biên Lợi Nhuận Gộp",
+              "value": "64.8%",
+              "description": "Tối ưu hóa nhờ chuyển đổi số"
+            }
+          ],
+          "notes": "Điểm nhấn các số liệu tài chính quan trọng nhất.",
+          "backgroundColor": "#075985"
+        },
+        {
+          "id": "s2-3",
+          "slideNumber": 3,
+          "title": "KẾT QUẢ CÁC ĐƠN VỊ KINH DOANH",
+          "subtitle": "Phân tích chi tiết theo từng dòng sản phẩm cốt lõi",
+          "layout": "bullet",
+          "bullets": [
+            "Dòng sản phẩm Doanh nghiệp (B2B SaaS): Tăng trưởng mạnh nhất (+52%), ký mới 18 tập đoàn lớn.",
+            "Dịch vụ Đào tạo & Chuyển giao: Hoàn thành 100% mục tiêu quý với tỷ lệ NPS đạt 91/100.",
+            "Kênh Khách hàng SME: Tiếp tục mở rộng ổn định, tỷ lệ duy trì hợp đồng (Retention Rate) đạt 94%."
+          ],
+          "notes": "Báo cáo chi tiết từng phòng ban.",
+          "backgroundColor": "#0c4a6e"
+        },
+        {
+          "id": "s2-4",
+          "slideNumber": 4,
+          "title": "THÁCH THỨC & GIẢI PHÁP",
+          "subtitle": "Nhận diện rào cản và hành động khắc phục kịp thời",
+          "layout": "two-column",
+          "columnLeft": [
+            "Thách thức biến động chuỗi cung ứng linh kiện server.",
+            "Áp lực cạnh tranh tuyển dụng nhân sự AI chất lượng cao.",
+            "Chi phí marketing trực tuyến có xu hướng tăng nhẹ."
+          ],
+          "columnRight": [
+            "Ký hợp đồng cung ứng dài hạn với các đối tác Tier 1.",
+            "Xây dựng chương trình hợp tác với các Đại học Công nghệ hàng đầu.",
+            "Đẩy mạnh chiến lược Inbound Marketing và giới thiệu đối tác (Referral)."
+          ],
+          "notes": "Thể hiện năng lực quản trị rủi ro chủ động của lãnh đạo.",
+          "backgroundColor": "#075985"
+        },
+        {
+          "id": "s2-5",
+          "slideNumber": 5,
+          "title": "KẾ HOẠCH HÀNH ĐỘNG QUÝ IV",
+          "subtitle": "Tập trung cao độ để về đích kế hoạch năm 2026",
+          "layout": "conclusion",
+          "bullets": [
+            "Chính thức phát hành bản cập nhật Smart Office Suite 3.0.",
+            "Chinh phục mốc doanh thu 65 Tỷ VNĐ cho quý IV.",
+            "Hoàn tất báo cáo kiểm toán độc lập phục vụ kế hoạch IPO 2027."
+          ],
+          "notes": "Truyền cảm hứng và thống nhất hành động cho quý cuối năm.",
+          "backgroundColor": "#0c4a6e"
+        }
+      ]
+    },
+    {
+      "id": "pres-tpl-003",
+      "title": "Khóa Đào Tạo Nhập Môn Nhân Viên Mới (Employee Onboarding)",
+      "description": "Bộ slide đào tạo văn hóa doanh nghiệp, giới thiệu sơ đồ tổ chức, quy định nội bộ và cẩm nang hòa nhập môi trường làm việc.",
+      "category": "Đào tạo",
+      "tags": [
+        "Đào tạo",
+        "Nhân sự",
+        "Onboarding",
+        "Văn hóa",
+        "Nội bộ"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "createdAt": "2026-02-15T09:00:00Z",
+      "updatedAt": "2026-03-22T11:00:00Z",
+      "theme": {
+        "name": "Vibrant Emerald Growth",
+        "primaryColor": "#059669",
+        "secondaryColor": "#0d9488",
+        "accentColor": "#fbbf24",
+        "backgroundColor": "#064e3b",
+        "textColor": "#ffffff",
+        "fontHeading": "Inter, sans-serif",
+        "fontBody": "Inter, sans-serif"
+      },
+      "slides": [
+        {
+          "id": "s3-1",
+          "slideNumber": 1,
+          "title": "CHÀO MỪNG BẠN GIA NHẬP ĐỘI NGŨ!",
+          "subtitle": "Chương trình định hướng & Hội nhập văn hóa doanh nghiệp 2026",
+          "layout": "title",
+          "notes": "Tạo không khí cởi mở, thân thiện và tràn đầy năng lượng cho tân binh.",
+          "backgroundColor": "#064e3b"
+        },
+        {
+          "id": "s3-2",
+          "slideNumber": 2,
+          "title": "SỨ MỆNH & GIÁ TRỊ CỐT LÕI",
+          "subtitle": "Những kim chỉ nam dẫn lối mọi hành động của chúng ta",
+          "layout": "two-column",
+          "columnLeft": [
+            "SỨ MỆNH:",
+            "Kiến tạo các sản phẩm công nghệ văn phòng đỉnh cao, giải phóng sức lao động trí tuệ của con người."
+          ],
+          "columnRight": [
+            "4 GIÁ TRỊ CỐT LÕI:",
+            "1. Chính trực (Integrity) trong mọi quan hệ.",
+            "2. Khách hàng là trung tâm (Customer First).",
+            "3. Không ngừng đổi mới sáng tạo (Continuous Innovation).",
+            "4. Tinh thần đồng đội vững chắc (One Team)."
+          ],
+          "notes": "Giúp nhân sự mới hiểu sâu sắc văn hóa và lẽ sống của tổ chức.",
+          "backgroundColor": "#047857"
+        },
+        {
+          "id": "s3-3",
+          "slideNumber": 3,
+          "title": "CẨM NANG NGÀY LÀM VIỆC ĐẦU TIÊN",
+          "subtitle": "Những điều cần lưu ý để khởi đầu thuận lợi nhất",
+          "layout": "bullet",
+          "bullets": [
+            "Nhận thiết bị làm việc, thẻ nhân viên và email công ty tại IT Helpdesk (Tầng 3).",
+            "Gặp gỡ Buddy (người hướng dẫn đồng hành 1:1) trong suốt 2 tháng thử việc.",
+            "Tham gia kênh Slack/Teams chung của phòng ban và hoàn thiện hồ sơ trên HRM Portal.",
+            "Thời gian làm việc linh hoạt từ 08h30 - 17h30 từ Thứ Hai đến Thứ Sáu."
+          ],
+          "notes": "Chỉ dẫn chi tiết từng bước cho ngày đầu tiên.",
+          "backgroundColor": "#064e3b"
+        },
+        {
+          "id": "s3-4",
+          "slideNumber": 4,
+          "title": "CHÍNH SÁCH PHÁT TRIỂN & ĐÀO TẠO",
+          "subtitle": "Cam kết đồng hành cùng sự phát triển sự nghiệp của bạn",
+          "layout": "metrics",
+          "metrics": [
+            {
+              "label": "Ngân sách học tập",
+              "value": "$1,000 / năm",
+              "description": "Dành cho chứng chỉ quốc tế và khóa học"
+            },
+            {
+              "label": "Thời gian đào tạo",
+              "value": "4 giờ / tuần",
+              "description": "Được tính vào thời gian làm việc chính thức"
+            },
+            {
+              "label": "Lộ trình thăng tiến",
+              "value": "Rõ ràng 2 lần/năm",
+              "description": "Đánh giá hiệu suất công bằng & minh bạch"
+            }
+          ],
+          "notes": "Tạo động lực phát triển lâu dài.",
+          "backgroundColor": "#047857"
+        },
+        {
+          "id": "s3-5",
+          "slideNumber": 5,
+          "title": "CHÚNG TA CÙNG NHAU BẮT ĐẦU!",
+          "subtitle": "Chúc bạn có một hành trình đầy tự hào và hạnh phúc tại công ty!",
+          "layout": "conclusion",
+          "bullets": [
+            "Liên hệ Bộ phận Nhân sự khi cần trợ giúp: hr@company.com",
+            "Hotline IT Support: #8888",
+            "Hẹn gặp bạn trong buổi Welcome Lunch lúc 12h00 hôm nay!"
+          ],
+          "notes": "Kết thúc buổi đào tạo với năng lượng tích cực.",
+          "backgroundColor": "#064e3b"
+        }
+      ]
+    },
+    {
+      "id": "pres-tpl-004",
+      "title": "Kiến Trúc Kỹ Thuật Hệ Thống & Demo Sprint (Tech Architecture)",
+      "description": "Bộ slide chuyên sâu dành cho Tech Lead / Architect trình bày kiến trúc vi dịch vụ, luồng xử lý dữ liệu và kết quả demo dự án kỹ thuật.",
+      "category": "Công nghệ",
+      "tags": [
+        "Công nghệ",
+        "Kiến trúc",
+        "Engineering",
+        "Microservices",
+        "Demo"
+      ],
+      "thumbnailUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+      "version": 1,
+      "createdAt": "2026-03-05T10:00:00Z",
+      "updatedAt": "2026-03-25T16:00:00Z",
+      "theme": {
+        "name": "Cyber Slate Dark",
+        "primaryColor": "#8b5cf6",
+        "secondaryColor": "#ec4899",
+        "accentColor": "#3b82f6",
+        "backgroundColor": "#18181b",
+        "textColor": "#ffffff",
+        "fontHeading": "Inter, sans-serif",
+        "fontBody": "Inter, sans-serif"
+      },
+      "slides": [
+        {
+          "id": "s4-1",
+          "slideNumber": 1,
+          "title": "KIẾN TRÚC SMART OFFICE PLATFORM",
+          "subtitle": "Bản thiết kế giải pháp phần mềm cấp doanh nghiệp thế hệ mới",
+          "layout": "title",
+          "notes": "Giới thiệu tổng quan kiến trúc hệ thống.",
+          "backgroundColor": "#18181b"
+        },
+        {
+          "id": "s4-2",
+          "slideNumber": 2,
+          "title": "NGUYÊN TẮC THIẾT KẾ KIẾN TRÚC",
+          "subtitle": "Đảm bảo tính mở rộng, an toàn và dễ bảo trì",
+          "layout": "bullet",
+          "bullets": [
+            "Separation of Concerns: Tách bạch rõ rệt giữa Presentation Layer, API Gateway và Storage Service.",
+            "Copy-on-Write Pattern: Bảo vệ dữ liệu mẫu gốc nguyên trạng, cấp phát bản sao độc lập.",
+            "Format Interoperability: Hỗ trợ sinh và tải DOCX / PPTX chuẩn OpenXML.",
+            "Automated Seed & Zero-config Setup: Khởi động dự án chỉ với một dòng lệnh duy nhất."
+          ],
+          "notes": "Trình bày các quyết định kiến trúc quan trọng.",
+          "backgroundColor": "#27272a"
+        },
+        {
+          "id": "s4-3",
+          "slideNumber": 3,
+          "title": "CHỈ SỐ HIỆU NĂNG VÀ BENCHMARK",
+          "subtitle": "Đo lường thời gian phản hồi thực tế trên môi trường Staging",
+          "layout": "metrics",
+          "metrics": [
+            {
+              "label": "Khởi tạo bản sao",
+              "value": "< 15ms",
+              "description": "Xử lý deep clone in-memory tối ưu"
+            },
+            {
+              "label": "Tốc độ xuất PPTX",
+              "value": "180ms",
+              "description": "Tạo slide với pptxgenjs chuẩn"
+            },
+            {
+              "label": "Test Coverage",
+              "value": "95%+",
+              "description": "Kiểm thử tự động cho toàn bộ luồng nghiệp vụ"
+            }
+          ],
+          "notes": "Minh chứng hiệu năng bằng số liệu thực tế.",
+          "backgroundColor": "#18181b"
+        },
+        {
+          "id": "s4-4",
+          "slideNumber": 4,
+          "title": "KẾT LUẬN & ĐỊNH HƯỚNG MỞ RỘNG",
+          "subtitle": "Sẵn sàng mở rộng cho Spreadsheet và PDF Form trong tương lai",
+          "layout": "conclusion",
+          "bullets": [
+            "Hệ thống hoàn thành 100% mục tiêu bài toán đặt ra.",
+            "Mã nguồn sạch, có tài liệu chi tiết và bài kiểm thử tích hợp đầy đủ.",
+            "Có thể tích hợp Cloud Storage (S3 / Azure Blob) chỉ bằng việc thay đổi Driver cấu hình."
+          ],
+          "notes": "Tổng kết và định hướng.",
+          "backgroundColor": "#27272a"
+        }
+      ]
+    },
+    {
+      "title": "Trình chiếu demo",
+      "description": "",
+      "category": "Kinh doanh",
+      "tags": [
+        "công văn",
+        "hành chính"
+      ],
+      "thumbnailUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1EWXhp-QeHpcDJ1DKYxCTYKEWkdiVLQ_0Vn7hLc-2ZA&s=10",
+      "theme": {
+        "name": "Standard Dark",
+        "primaryColor": "#3b82f6",
+        "secondaryColor": "#10b981",
+        "accentColor": "#f59e0b",
+        "backgroundColor": "#0f172a",
+        "textColor": "#ffffff",
+        "fontHeading": "Inter, sans-serif",
+        "fontBody": "Inter, sans-serif"
+      },
+      "slides": [
+        {
+          "id": "slide-1",
+          "slideNumber": 1,
+          "title": "Slide Tiêu Đề Mới",
+          "subtitle": "Phụ đề giới thiệu ngắn gọn",
+          "layout": "title",
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "slide-2",
+          "slideNumber": 2,
+          "title": "Nội Dung Chi Tiết",
+          "subtitle": "Các luận điểm quan trọng",
+          "layout": "bullet",
+          "bullets": [
+            "Nội dung luận điểm 1",
+            "Nội dung luận điểm 2"
+          ],
+          "backgroundColor": "#1e293b"
+        }
+      ],
+      "id": "19",
+      "version": 1,
+      "createdAt": "2026-11-01T04:34:41.153Z",
+      "updatedAt": "2026-11-01T04:34:41.153Z",
+      "isDefault": false
+    }
+  ],
+  "userPresentations": [
+    {
+      "id": "4d151bb5-c4b8-471d-a5a4-860967c3f954",
+      "templateId": "20",
+      "templateTitle": "TRình chiếu demo 01.11.2026",
+      "title": "TRình chiếu demo 01.11.2026 (Bản làm việc)",
+      "theme": {
+        "name": "Standard Dark",
+        "fontBody": "Inter, sans-serif",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "fontHeading": "Inter, sans-serif",
+        "primaryColor": "#3b82f6",
+        "secondaryColor": "#10b981",
+        "backgroundColor": "#0f172a"
+      },
+      "slides": [
+        {
+          "id": "usr-s-9db53706",
+          "title": "Slide Tiêu Đề 1",
+          "layout": "title",
+          "subtitle": "Phụ đề giới thiệu ngắn gọn",
+          "slideNumber": 1,
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "usr-s-e2b13915",
+          "title": "Nội Dung Chi Tiết 2",
+          "layout": "bullet",
+          "bullets": [
+            "Nội dung luận điểm 1",
+            "Nội dung luận điểm 2"
+          ],
+          "subtitle": "Các luận điểm quan trọng",
+          "slideNumber": 2,
+          "backgroundColor": "#1e293b"
+        },
+        {
+          "id": "usr-s-03147ccf",
+          "title": "Chi tiết 3",
+          "layout": "bullet",
+          "bullets": [
+            "Luận điểm 1",
+            "Luận điểm 2"
+          ],
+          "subtitle": "Mô tả tóm tắt...",
+          "slideNumber": 3,
+          "backgroundColor": "#0f172a"
+        }
+      ],
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:39:36.154Z",
+      "lastModified": "2026-11-01T04:39:36.154Z"
+    },
+    {
+      "id": "7168f4c6-b9e2-42ad-98a0-4f1b555b8510",
+      "templateId": "20",
+      "templateTitle": "TRình chiếu demo 01.11.2026",
+      "title": "TRình chiếu demo 01.11.2026 (Bản làm việc)",
+      "theme": {
+        "name": "Standard Dark",
+        "fontBody": "Inter, sans-serif",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "fontHeading": "Inter, sans-serif",
+        "primaryColor": "#3b82f6",
+        "secondaryColor": "#10b981",
+        "backgroundColor": "#0f172a"
+      },
+      "slides": [
+        {
+          "id": "usr-s-7d413591",
+          "title": "Slide báo cáo",
+          "layout": "title",
+          "subtitle": "description",
+          "slideNumber": 1,
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "usr-s-5888475b",
+          "title": "Tiêu đề báo cáo",
+          "layout": "bullet",
+          "bullets": [
+            "Nội dung luận điểm 1",
+            "Nội dung luận điểm 2"
+          ],
+          "subtitle": "Các luận điểm quan trọng",
+          "slideNumber": 2,
+          "backgroundColor": "#1e293b"
+        },
+        {
+          "id": "usr-s-91ccb683",
+          "title": "Chi tiết báo cáo",
+          "layout": "bullet",
+          "bullets": [
+            "Luận điểm 1",
+            "Luận điểm 2"
+          ],
+          "subtitle": "Mô tả tóm tắt...",
+          "slideNumber": 3,
+          "backgroundColor": "#0f172a"
+        }
+      ],
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:38:16.477Z",
+      "lastModified": "2026-11-01T04:39:16.417Z"
+    },
+    {
+      "id": "69ad96fe-cdc9-4d4a-aa07-8409047cd97b",
+      "templateId": "19",
+      "templateTitle": "Trình chiếu demo",
+      "title": "Trình chiếu demo (Bản làm việc)",
+      "theme": {
+        "name": "Standard Dark",
+        "fontBody": "Inter, sans-serif",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "fontHeading": "Inter, sans-serif",
+        "primaryColor": "#3b82f6",
+        "secondaryColor": "#10b981",
+        "backgroundColor": "#0f172a"
+      },
+      "slides": [
+        {
+          "id": "usr-s-b87828e9",
+          "title": "test văn bản",
+          "layout": "title",
+          "subtitle": "222222111111",
+          "slideNumber": 1,
+          "backgroundColor": "#0f172a"
+        },
+        {
+          "id": "usr-s-c68c3dc4",
+          "title": "Nội Dung Chi Tiết",
+          "layout": "bullet",
+          "bullets": [
+            "Nội dung luận điểm 1",
+            "Nội dung luận điểm 2"
+          ],
+          "subtitle": "Các luận điểm quan trọng",
+          "slideNumber": 2,
+          "backgroundColor": "#1e293b"
+        }
+      ],
+      "author": "Người dùng",
+      "createdAt": "2026-11-01T04:34:47.012Z",
+      "lastModified": "2026-11-01T04:35:18.998Z"
+    }
+  ]
+}
