@@ -163,7 +163,7 @@ class DocumentService {
         if (mysql_1.mysqlDb.getStatus()) {
             try {
                 const docs = await mysql_1.mysqlDb.getUserDocuments('docx');
-                if (docs && docs.length > 0)
+                if (docs !== null)
                     return docs;
             }
             catch (err) {

@@ -177,7 +177,7 @@ class PresentationService {
         if (mysql_1.mysqlDb.getStatus()) {
             try {
                 const list = await mysql_1.mysqlDb.getUserDocuments('pptx');
-                if (list && list.length > 0)
+                if (list !== null)
                     return list;
             }
             catch (err) {

@@ -56,6 +56,7 @@ export class MySQLDatabase {
 
       this.isConnected = true;
       console.log(`✅ Kết nối thành công tới MySQL Database [${config.database}] tại ${config.host}:${config.port}`);
+      await this.purgeDocumentsFromInactiveTemplates();
       return true;
     } catch (error: any) {
       console.warn(`⚠️ Không thể kết nối tới MySQL (${error.message}). Sẽ sử dụng Fallback Database Storage.`);
@@ -270,7 +271,7 @@ export class MySQLDatabase {
         d.updated_at AS lastModified,
         t.name AS templateTitle
       FROM documents d
-      LEFT JOIN templates t ON t.id = d.template_id
+      INNER JOIN templates t ON t.id = d.template_id AND t.is_active = 1
       WHERE d.status != 'deleted'
     `;
 
@@ -348,7 +349,37 @@ export class MySQLDatabase {
     if (!this.pool || !this.isConnected) return false;
     const sql = `UPDATE templates SET is_active = 0 WHERE (id = ? OR slug = ?)`;
     const [result]: any = await this.pool.query(sql, [id, String(id)]);
+
+    // Đồng thời cập nhật trạng thái đã xóa cho các tài liệu cá nhân thuộc template bị ẩn/xóa
+    try {
+      await this.pool.query(`
+        UPDATE documents 
+        SET status = 'deleted' 
+        WHERE template_id IN (
+          SELECT id FROM (SELECT id FROM templates WHERE id = ? OR slug = ? OR is_active = 0) AS t
+        )
+      `, [id, String(id)]);
+    } catch (err) {
+      console.warn('MySQL deactivateTemplate documents update error:', err);
+    }
+
     return result.affectedRows > 0;
+  }
+
+  public async purgeDocumentsFromInactiveTemplates(): Promise<number> {
+    if (!this.pool || !this.isConnected) return 0;
+    try {
+      const [res]: any = await this.pool.query(`
+        UPDATE documents 
+        SET status = 'deleted' 
+        WHERE status != 'deleted' 
+          AND (template_id IS NULL OR template_id NOT IN (SELECT id FROM templates WHERE is_active = 1))
+      `);
+      return res.affectedRows || 0;
+    } catch (err) {
+      console.warn('MySQL purgeDocumentsFromInactiveTemplates error:', err);
+      return 0;
+    }
   }
 
   // --- TẠO TEMPLATE MỚI VÀO MYSQL ---
